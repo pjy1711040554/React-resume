@@ -4,7 +4,7 @@
 可以编辑自己的在线简历并且导出、避免改简历的麻烦操作。\
 可以去其他人的简历空间查看其他人的简历，并且留言。
 
-在线体验：[http://qzone.falsehood.top/](.)
+在线体验：[http://qzone.falsehood.top/](http://qzone.falsehood.top/)
 
 
 # Resume space.
@@ -13,7 +13,7 @@ A React based resume space\
 You can edit your online resume and export it to avoid the hassle of modifying it\
 You can go to other people's resume space to view their resumes and leave a message.
 
-Online Experience:[ http://qzone.falsehood.top/ ](.)
+Online Experience:[ http://qzone.falsehood.top/ ](http://qzone.falsehood.top/)
 
 ## Available Scripts
 
