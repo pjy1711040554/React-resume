@@ -24,7 +24,7 @@
 }
 
 .jl-title {
-    line-height: 40px;
+    line-height: 30px;
     position: relative;
     color: #2f5785;
     font-weight: 700;
@@ -148,7 +148,7 @@
     z-index: 99;
 }
 
-.jz-wsjl, .jl-zwpj1 {
+ .jl-zwpj1 {
     display: none;
 }
 

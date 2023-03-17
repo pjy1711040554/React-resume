@@ -12,10 +12,8 @@ function Sss() {
     const [age, setAge] = useState(19)
 
     useEffect(() => {
-        console.log(1111)
     }, []);
     useEffect(() => {
-        console.log(`今年${age}歲`)
     }, [age]);
 
     const add = () => {
@@ -31,7 +29,6 @@ function Sss() {
 class Header extends Component {
     constructor(props) {
         super(props);
-        console.log(props)
         this.state = {
             router: props.router,
             userinfo:{},

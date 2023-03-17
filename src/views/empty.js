@@ -15,7 +15,7 @@ export default class Index extends Component {
             user = JSON.parse(user)
             this.props.history.push(`/infocenter/${user.username}`);
         }else{
-            this.props.history.push(`/message/`);
+            this.props.history.push(`/infocenter/`);
         }
          // socket.on('userChange', function(msg) {
          //     console.log(msg)
@@ -25,7 +25,7 @@ export default class Index extends Component {
 
     render() {
         return (
-            <div>111</div>
+            <div></div>
         )
     }
 }

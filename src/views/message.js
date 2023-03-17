@@ -78,7 +78,6 @@ const CollectionCreateForm = ({visible, onCreate, onCancel}) => {
                         onCreate(values);
                     })
                     .catch((info) => {
-                        console.log(info)
                     });
             }}
         >

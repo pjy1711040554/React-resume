@@ -325,16 +325,7 @@ const fallback = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAADDCAYAAADQ
                                         <Col span={24}>邮箱：{this.state.resume.yx}</Col>
                                     </Row>
                                 </div>
-                                <div className={'jl-qzyx jz-wsjl'}>
-                                    <h4 className={'jl-title'}>网上简历</h4>
-                                    <div>
-                                        <Row className={'qzyx-row jl-border-dashed'}>
-                                            <Col span={24} style={{whiteSpace: 'pre-wrap'}}>
-                                                开源项目
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
+
                                 <div className={'jl-qzyx'}>
                                     <h4 className={'jl-title'}>求职意向</h4>
                                     <div>
@@ -389,6 +380,23 @@ const fallback = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAADDCAYAAADQ
                                         </Row>
                                     </div>
                                 </div>
+                                {
+                                    this.state.resume.yx === '1711040554@qq.com'
+                                    &&
+                                    <div className={'jl-qzyx jz-wsjl'}>
+                                        <h4 className={'jl-title'}>开源项目</h4>
+                                        <div>
+                                            <Row className={'qzyx-row jl-border-dashed'}>
+                                                <Col span={24} style={{whiteSpace: 'pre-wrap'}}>
+                                                    可视化工具：<a href="https://github.com/pjy1711040554/Config-tool" target={'_blank'}>https://github.com/pjy1711040554/Config-tool</a>
+                                                    <br/>
+                                                    简历空间：<a href="https://github.com/pjy1711040554/React-resume" target={'_blank'}>https://github.com/pjy1711040554/React-resume</a>
+
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </div>
+                                }
                                 <div className={'jl-qzyx jl-zwpj1'}>
                                     <h4 className={'jl-title'}>自我评价</h4>
                                     <div>
