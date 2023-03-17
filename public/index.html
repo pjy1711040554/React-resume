@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="http://81.70.164.73:3999/static/img/touxiang.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="情话个人小站"/>
+    <link rel="apple-touch-icon" href="http://81.70.164.73:3999/static/img/touxiang.jpg"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <title>Love Talk</title>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+<script src="https://boyangsoft.cn/zhxfz_web/js/jquery.js"></script>
+<script src="//pv.sohu.com/cityjson?ie=utf-8"></script>
+<script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "http://43.143.72.33:2019/api" + "/visitor/save", true);
+    xhttp.send();
+</script>
+</body>
+</html>

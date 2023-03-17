@@ -1,0 +1,31 @@
+.header {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header .name span {
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 0 .5em;
+    letter-spacing: .1em;
+    line-height: 2em;
+    margin: 2em 0;
+    display: inline-block;
+    color: #948c76;
+    background: #fdf4e8;
+}
+
+.tabs-box {
+    margin-bottom: 30px;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #1890ff;
+}
+.tabs>div{
+    margin: 0 10px;
+}

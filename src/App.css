@@ -1,0 +1,23 @@
+@import '~antd/dist/antd.css';
+
+body, html {
+    background: url("https://www.redspite.com/static/media/bg.3e86f279.jpg") repeat;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 840px) {
+   .main{
+       width: calc(100% - 40px);
+   }
+}

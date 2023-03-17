@@ -1,0 +1,62 @@
+.p-textare {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgba(159, 221, 255, 0.76);
+}
+
+.p-textare .title {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background: rgba(159, 221, 255, 0.49);
+}
+
+.p-textare .right {
+    cursor: pointer;
+}
+
+.p-textare .cont {
+    height: 108px;
+}
+
+.p-textare .cont textarea {
+    outline: none;
+    height: 100%;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    resize: none;
+    color: rgba(0, 0, 0, .65);
+}
+
+.p-textare.active {
+    border: 1px solid rgb(92, 187, 255);
+}
+
+.p-textare .ant-btn {
+    border-radius: 5px;
+    position: absolute;
+    bottom: -40px;
+    right: 1px;
+}
+
+
+.ant-list {
+    margin-top: 40px;
+}
+
+.p-search .ant-input-group-addon span {
+    font-size: 12px;
+}
+
+.ant-comment {
+    padding: 15px 0;
+}
+
+.message-spin{
+    min-height: 100px;
+}
